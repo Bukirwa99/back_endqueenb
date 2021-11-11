@@ -1,0 +1,116 @@
+body {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-image: url(../images/george-pagan-iii-5b-glN15ric-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    color: #f89e02;
+    background-color: black;
+    margin: 2px;
+    padding: 10px 5px;
+}
+
+.header h1 {
+    margin-left: 265px;
+}
+
+.logo2 img {
+    width: 120px;
+    height: 120px;
+    margin-left: 310px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.facilitator {
+    margin: 80px 100px 30px 50px;
+    background-color: #FCB43A;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.student {
+    margin: 80px 80px 30px 80px;
+    background-color: #f89e02;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.remember {
+    /* background-color: blanchedalmond; */
+}
+
+.logo img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    padding-top: 0px;
+    margin: auto;
+    padding-left: 5px;
+}
+
+::placeholder {
+    font-size: 15px;
+    padding-left: 10px;
+    color: black;
+}
+
+input[type=email] {
+    outline: none;
+    border: none;
+    width: 270px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+input[type=password] {
+    outline: none;
+    border: none;
+    width: 270px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 30px;
+    background-color: black;
+    color: #FCB43A;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+p.error {
+    color: #ff0000;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(56, 55, 55);
+}
